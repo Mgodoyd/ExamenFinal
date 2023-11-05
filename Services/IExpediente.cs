@@ -1,0 +1,10 @@
+﻿using Examen_final_DW.Models;
+
+namespace Examen_final_DW.Services
+{
+    public interface IExpediente
+    {
+        List<Expediente> listExpedientes();
+        Expediente CrearExpediente(Expediente expediente);
+    }
+}
